@@ -555,6 +555,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476b7dc6f01706141a13ff10a29e2b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  disableOnDeath:
+  - {fileID: 114630827237311544}
+  - {fileID: 114306199792381506}
 --- !u!114 &114306199792381506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -573,7 +577,7 @@ MonoBehaviour:
   cam: {fileID: 20550505540660024}
   mask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 4294967039
 --- !u!114 &114314254744336054
 MonoBehaviour:
   m_ObjectHideFlags: 1
