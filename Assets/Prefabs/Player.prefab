@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1792196907599842
 GameObject:
   m_ObjectHideFlags: 1
@@ -416,7 +416,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966271
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -876,6 +876,10 @@ MonoBehaviour:
   - {fileID: 114306199792381506}
   - {fileID: 95392979260045688}
   remoteLayerName: RemotePlayer
+  dontDrawLayerName: DontDraw
+  playerGraphics: {fileID: 1469890559930674}
+  playerUIPrefab: {fileID: 1628047696187144, guid: b62cf3cd3e74f0c418ab7e8b8a2c416d,
+    type: 2}
 --- !u!114 &114580000417813170
 MonoBehaviour:
   m_ObjectHideFlags: 1
